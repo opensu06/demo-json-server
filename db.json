@@ -1,31 +1,24 @@
 {
-  "posts": [
+  "critical_alerts": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "time": "2023-06-01T09:00:00Z",
+      "value": 3
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "time": "2023-06-01T10:00:00Z",
+      "value": 1
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "time": "2023-06-01T11:00:00Z",
+      "value": 2
+    },
+    {
+      "time": "2023-06-01T12:00:00Z",
+      "value": 0
+    },
+    {
+      "time": "2023-06-01T13:00:00Z",
+      "value": 1
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
